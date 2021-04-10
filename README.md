@@ -64,13 +64,12 @@ else
 
 ## Functions
 ```
-f(x) = x^2 print(f(123))
+f(x) = x^2
 
-f(x) { x^2 } print(f(123))
+f(x) { x^2 }
 
 f(x)
   x^2
-print(f(123))
 
 
 taste(fruit) if fruit = apple good else bad
