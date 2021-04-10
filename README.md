@@ -26,6 +26,12 @@ a list = [hello world]
 a list without an element = a list - "hello world"
 ```
 
+### Transpose 
+```
+a list = [1,2,3]'
+a list = tranpose([1,2,3])
+```
+
 ### Accessing elements (Python syntax)
 ```
 the best fruits = [banana, orange]
