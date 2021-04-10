@@ -69,6 +69,11 @@ f(x)
 print(f(123))
 ```
 
+## Objects
+some data object = get <URL THAT RETRIEVES JSON>
+some property = property of some data object
+some property = some data object.property
+
 ## Mathematical Optimization (ML)
 f(x) = x^2 print(minimize f)
 
