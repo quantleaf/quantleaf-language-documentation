@@ -12,7 +12,7 @@ some variable = "hello world"
 ```
 a list = A,B,C
 a list = [1,2,3]
-a complex kind of list = [[A,"B",123],[456,???,hello world]
+a complex kind of list = [[A,"B",123],[456,???,hello world]]
 a list of todos contains do laundry, cleaning and calling grandma
 ```
 ### Adding elements
@@ -113,7 +113,7 @@ print(some data[2,3])
 
 ### Comments
 ```
-Comments are just comments, just write them any where
+Comments are just comments, just write them anywhere
 print 1 + 1
 ```
 ## More...
