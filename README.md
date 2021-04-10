@@ -1,4 +1,5 @@
 # Quantleaf Language Documentation & Examples
+
 ## Variables
 ```
 some variable = 123
@@ -12,6 +13,7 @@ some variable = "hello world"
 a list = A,B,C
 a list = [1,2,3]
 a complex kind of list = [[A,"B",123],[456,???,hello world]
+a list of todos contains do laundry, cleaning and calling grandma
 ```
 ### Adding elements
 
