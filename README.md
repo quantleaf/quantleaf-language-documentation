@@ -94,8 +94,8 @@ print(some data[2,3])
 
 ### Comments
 ```
-Comments are just comments, just write them any where, like before this
-print(1+1)
+Comments are just comments, just write them any where
+print 1 + 1
 ```
 ## More...
 This was a basic introduction. More to come! 
