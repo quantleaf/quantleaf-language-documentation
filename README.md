@@ -63,17 +63,21 @@ else
 ## Functions
 ```
 f(x) = x^2 print(f(123))
+
 f(x) { x^2 } print(f(123))
+
 f(x)
   x^2
 print(f(123))
 
 
 taste(fruit) if fruit = apple good else bad
+
 taste(fruit)
   if fruit equals apple
     return good
   return bad
+  
 taste(fruit)
 {
   if(fruit == apple)
