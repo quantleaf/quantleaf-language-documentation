@@ -82,16 +82,19 @@ print(minimize f)
 ```
 
 ## GET request
-some data = get <YOUR URL> 
+```
+some data = get <YOUR URL>
+```
 
 ### If data is CSV (you can treat the variable as an matrix)
+```
 some data = get <YOUR CSV URL>
 print(some data[2,3])
-
+```
 
 
 ## More...
-This was a basic introduction. There 
+This was a basic introduction. More to come! 
 
 
 
