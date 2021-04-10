@@ -90,7 +90,7 @@ taste(fruit)
 ```
 some data object = get <URL THAT RETRIEVES JSON>
 some property = property of some data object
-some property = some data object.property
+same property = some data object.property
 ```
 ## Mathematical Optimization (ML)
 ```
