@@ -152,14 +152,14 @@ You can write function in many different ways.
 ```
 f(x) = x^2
 ```
-or
-```
-f(x) { x^2 }
-```
 or 
 ```
 f(x)
     x^2
+```
+or
+```
+f(x) { x^2 }
 ```
 or
 ```
