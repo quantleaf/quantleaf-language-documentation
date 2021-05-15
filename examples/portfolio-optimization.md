@@ -1,4 +1,4 @@
-In this example we do portfolio optimization using realtime data from Quandl.com. We fetch data from Quandl by building different urls. Then we calculate the returns, covariance, and model the optimization problem. The goal with the optimization function (f) is to maximize the return and minimize the variance. The weight vector w describes how much of each stock we should hold. If w = [0.5, 0.5], then it means that we should hold an equal amount of the first stock and the second stock.
+In this example we do portfolio optimization using realtime data from Quandl.com. We fetch data from Quandl by building different urls. Then we calculate the returns, covariance, and model the optimization problem. The goal with the optimization function *f* is to maximize the return and minimize the variance. The weight vector w describes how much of each stock we should hold. If w = [0.5, 0.5], then it means that we should hold an equal amount of the first stock and the second stock.
 
 To run this example you need a Quandl Account, and assign the "quandl api key" variable with your API key.
 
