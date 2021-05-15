@@ -143,6 +143,8 @@ else
 ```
 
 ### Functions
+
+#### Defining functions
 ```
 f(x) = x^2
 ```
@@ -177,7 +179,20 @@ taste(fruit)
   bad
 }
 ```
+#### Call/Use functions
+You can pass arguments by position or assign by name (or both).
 
+By position
+```
+f(x,y)=x*y
+print(f(1,2))
+```
+
+By name
+```
+f(x,y)=x*y
+print(f(y=2,x=1))
+```
 ### Objects, accessing properties
 ```
 some data object = get <URL THAT RETRIEVES JSON>
