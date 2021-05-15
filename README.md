@@ -5,7 +5,7 @@ You do not need to install anything to start writing code. Just visit [quantleaf
 
 For a quick "deep dive" [check this linear regression example](https://github.com/quantleaf/quantleaf-language-documentation/blob/master/examples/linear-regression-one-variable.md), or see [other examples here](https://github.com/quantleaf/quantleaf-language-documentation/tree/master/examples).
 
-Two things to note. The project is currently in the testing phase. Which means, major changes could occur. 
+Two things to note. The project is currently in the testing phase which means major changes could occur. 
 The documentation below is in english but the Quantleaf Language can also be written in Swedish, but is not yet well documented. The language will also in the future support/understand more languages.
 
 
