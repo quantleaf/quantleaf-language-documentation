@@ -85,7 +85,7 @@ a list = [1,2,3]'
 ```
 or
 ```
-a list = tranpose([1,2,3])
+a list = transpose([1,2,3])
 ```
 
 #### Accessing elements
