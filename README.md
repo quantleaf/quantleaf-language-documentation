@@ -93,10 +93,15 @@ some data object = get <URL THAT RETRIEVES JSON>
 some property = property of some data object
 same property = some data object.property
 ```
-## Mathematical Optimization (ML)
+## Mathematical Optimization
 ```
 f(x) = x^2 
 print(minimize f)
+
+f(x) = x^2 s.t. x > 0
+print(minimize f)
+
+print(minimize f(x) = x^2 s.t. x > 0)
 ```
 
 ## GET request
@@ -112,11 +117,25 @@ print(some data[2,3])
 
 ### Comments
 ```
-Comments are just comments, just write them anywhere
+"Comments are written with surrounding quotation symbols"
 print 1 + 1
 ```
-## More...
-This was a basic introduction. More to come! 
+
+### Visualization
+```
+x = [1,2,3]
+y = [3,4,5]
+plot(x,y, label = Some line)
+
+histogram(x)
+
+bar chart(x)
+
+scatter plot(x,y)
+
+table(get(<YOUR CSV URL>))
+
+``´
 
 
 
