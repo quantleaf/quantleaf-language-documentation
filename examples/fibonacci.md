@@ -35,9 +35,9 @@ print(fib(8))
 (In swedish)
 ```
 fib(n) 
-	if (n <= 1) {
+	om n <= 1
         returnera n
-    }
-	returnera fib(n-1) + fib(n-2)
+    annars
+	    fib(n-1) + fib(n-2)
 skriv ut fib(8)
 ```
