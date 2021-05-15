@@ -23,9 +23,9 @@ print fib(8)
 fib(n) 
 {
 	if (n <= 1) 
-    {
-        return n
-    }
+	{
+		return n
+	}
 	return fib(n-1) + fib(n-2)
 }
 print(fib(8))
@@ -36,8 +36,8 @@ print(fib(8))
 ```
 fib(n) 
 	om n <= 1
-        returnera n
-    annars
-	    fib(n-1) + fib(n-2)
+		returnera n
+    	annars
+		fib(n-1) + fib(n-2)
 skriv ut fib(8)
 ```
