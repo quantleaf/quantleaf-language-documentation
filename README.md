@@ -62,6 +62,9 @@ a list without an element = a list remove "hello world"
 Flip a matrix along its diagonal
 ```
 a list = [1,2,3]'
+```
+or
+```
 a list = tranpose([1,2,3])
 ```
 
@@ -105,7 +108,7 @@ print(apple price)
 ```
 for i = 1 to 10 print (i)
 ```
-
+or
 ```
 foreach fruit in [banana, apple, kiwi] print fruit
 ```
@@ -122,20 +125,31 @@ else
 ### Functions
 ```
 f(x) = x^2
-
+```
+or
+```
 f(x) { x^2 }
-
+```
+or 
+```
 f(x)
   x^2
+```
 
+Some small examples with if statements: 
 
+```
 taste(fruit) if fruit = apple good else bad
+```
 
+```
 taste(fruit)
   if fruit equals apple
     return good
   return bad
-  
+```
+
+```
 taste(fruit)
 {
   if(fruit == apple)
