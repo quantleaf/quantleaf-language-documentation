@@ -19,11 +19,22 @@ fib(n)
 print fib(8)
 ```
 
-or
 ```
 fib(n) 
-	if n <= 1 
-		return n 
-	fib(n-1) + fib(n-2)
-print fib(8)
+	if (n <= 1) {
+        return n
+    }
+	return fib(n-1) + fib(n-2)
+print(fib(8))
+```
+
+
+(In swedish)
+```
+fib(n) 
+	if (n <= 1) {
+        returnera n
+    }
+	returnera fib(n-1) + fib(n-2)
+skriv ut fib(8)
 ```
