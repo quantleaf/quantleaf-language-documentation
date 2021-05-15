@@ -179,7 +179,7 @@ plot(x,y, label = Some line)
 ### Histogram chart
 ```
 x = [1,2,3,3,3,3,4,5,5,5,5,5]
-histogram(x, bars = 2, label = Some histogram)
+histogram(x, bars = 4, label = Some histogram)
 ```
 
 ### Bar chart
