@@ -36,13 +36,13 @@ a list of todos contains do laundry, cleaning and call grandma
 
 ```
 a list = [] 
-a list with an element = a list + "hello world"
+a list with an element = a list add "hello world"
 ```
 ### Removing elements
 
 ```
 a list = [hello world] 
-a list without an element = a list - "hello world"
+a list without an element = a list remove "hello world"
 ```
 
 ### Transpose 
