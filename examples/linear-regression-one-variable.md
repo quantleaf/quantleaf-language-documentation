@@ -20,10 +20,9 @@ result = minimize distance from data
 "Show the result from the optimization"
 print result
 
-"Visualsera datan samt den anpassade linjen"
+"Visualize data and the line"
 estimated k = result.parameters.k
 estimated m = result.parameters.m
-
 scatter plot(x,y, label = Observations) 
 and plot(x,f(x,estimated k,estimated m), label = The line)
 
