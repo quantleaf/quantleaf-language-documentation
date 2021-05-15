@@ -8,6 +8,8 @@ For a quick "deep dive" [check this linear regression example](https://quantleaf
 Two things to note. The project is currently in the testing phase which means major changes could occur. 
 The documentation below is in English but the Quantleaf Language can also be written in Swedish, but is not yet well documented. The language will also in the future support/understand more languages.
 
+You can get help with issues [here](https://github.com/quantleaf/quantleaf-language-documentation/issues)
+
 
 ## Documentation
 
