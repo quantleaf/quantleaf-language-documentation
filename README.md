@@ -115,27 +115,54 @@ some data = get <YOUR CSV URL>
 print(some data[2,3])
 ```
 
-### Comments
+## Comments
 ```
 "Comments are written with surrounding quotation symbols"
 print 1 + 1
 ```
 
-### Visualization
+## Visualization
+### Line plot
 ```
 x = [1,2,3]
 y = [3,4,5]
 plot(x,y, label = Some line)
+```
+### Histogram chart
+```
+x = [1,2,3,3,3,3,4,5,5,5,5,5]
+histogram(x, bars = 2, label = Some histogram)
+```
 
-histogram(x)
+### Bar chart
+```
+x = [apple, apple, orange, pineapple]
+bar chart(x,label = Fruits)
+```
 
-bar chart(x)
-
+### Scatter plot
+```
+x = [1,2,3]
+y = [3,4,5]
 scatter plot(x,y)
+```
 
+### Combining charts/plots
+Use the word "and" or ","
+```
+x = [1,2,3]
+y = [3,4,5]
+z = [1,2,3,3,3,3,3,4]
+plot(x,y, label = Some line) and histogram(z)
+```
+
+
+### Table
+This method will try to convert content into a table and visualize it
+```
 table(get(<YOUR CSV URL>))
+```
 
-``´
 
 
 
