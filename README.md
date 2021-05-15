@@ -51,17 +51,39 @@ a list = [1,2,3]'
 a list = tranpose([1,2,3])
 ```
 
-### Accessing elements (Python syntax)
+### Accessing elements
+
+Indexing starts at 0 (first element starts at position 0)
+
+
+Select row by indices
 ```
 the best fruits = [banana, orange]
 print the best fruits [0]
-
-some matrix = [[1,2,3],[4,5,6]]
-a smaller matrix  = some matrix[1:,2:3]
-
-fruit price matrix = [[Apple, Orange],[2,3]]
-apple price = fruit price matrix column Apple and row 1
 ```
+
+
+Select row by ranges
+```
+some matrix = [[1,2,3],[4,5,6]]
+a smaller matrix  = some matrix[0,1:3]
+print(a smaller matrix)
+```
+or 
+```
+some matrix = [[1,2,3],[4,5,6]]
+a smaller matrix  = some matrix row 0 and column from 1 to 3
+print(a smaller matrix)
+```
+
+
+You can select columns and rows by value. If you select a column with name "Apple", you expect the first row to contain the element "Apple" somewhere. The selected column will not include the first row. Same concept holds for rows. 
+```
+fruit price matrix = [[Apple, Orange],[2,3]]
+apple price = fruit price matrix column Apple
+```
+
+
 
 ## Looping
 
