@@ -178,7 +178,7 @@ f(x)
 ```
 
 
-Below are some small examples of the **same** program using if statements and *return* statements (which lets us exit functions before the end is reached)
+Below are some small examples of the **same** program using *if* statements and *return* statements (which lets us exit functions before the end is reached)
 
 ```
 taste(fruit) if fruit = apple good else bad
