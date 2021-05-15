@@ -104,7 +104,7 @@ taste(fruit)
 }
 ```
 
-## Objects
+## Objects, accessing properties
 ```
 some data object = get <URL THAT RETRIEVES JSON>
 some property = property of some data object
@@ -126,7 +126,7 @@ print(minimize f)
 print(minimize f(x) = x^2 s.t. x > 0)
 ```
 
-## GET request
+## HTTP GET request
 ```
 some data = get <YOUR URL>
 ```
@@ -184,7 +184,5 @@ This method will try to convert content into a table and visualize it
 ```
 table(get(<YOUR CSV URL>))
 ```
-
-
 
 
