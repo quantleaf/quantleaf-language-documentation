@@ -5,9 +5,9 @@ The documentation below is in english but the Quantleaf Language can also be wri
 For a quick "deep dive" [check this linear regression example](https://github.com/quantleaf/quantleaf-language-documentation/blob/master/examples/linear-regression-one-variable.md), or see [other examples here](https://github.com/quantleaf/quantleaf-language-documentation/tree/master/examples).
 
 
-# Documentation
+## Documentation
 
-## Print
+### Print
 ```
 print(1+1)
 ```
@@ -24,41 +24,41 @@ or end your program with some value
 sqrt(2)
 ```
 
-## Variables
+### Variables
 ```
 some variable = 123
 some variable = hello world
 some variable = "hello world"
 ```
 
-## Lists
-### Creating
+### Lists
+#### Creating
 ```
 a list = A,B,C
 a list = [1,2,3]
 a complex kind of list = [[A,"B",123],[456,???,hello world]]
 a list of todos contains do laundry, cleaning and call grandma
 ```
-### Adding elements
+#### Adding elements
 
 ```
 a list = [] 
 a list with an element = a list add "hello world"
 ```
-### Removing elements
+#### Removing elements
 
 ```
 a list = [hello world] 
 a list without an element = a list remove "hello world"
 ```
 
-### Transpose 
+#### Transpose 
 ```
 a list = [1,2,3]'
 a list = tranpose([1,2,3])
 ```
 
-### Accessing elements
+#### Accessing elements
 
 Indexing starts at 0 (first element starts at position 0)
 
@@ -93,14 +93,14 @@ print(apple price)
 
 
 
-## Looping
+### Looping
 
 ```
 for i = 1 to 10 print (i)
 foreach fruit in [banana, apple, kiwi] print fruit
 ```
 
-## If, Else If, Else
+### If, Else If, Else
 ```
 if 2 > 1
   print hello
@@ -109,7 +109,7 @@ else
   print "something"
 ```
 
-## Functions
+### Functions
 ```
 f(x) = x^2
 
@@ -134,19 +134,19 @@ taste(fruit)
 }
 ```
 
-## Objects, accessing properties
+### Objects, accessing properties
 ```
 some data object = get <URL THAT RETRIEVES JSON>
 some property = property of some data object
 same property = some data object.property
 ```
-## Mathematical Optimization
-### Unconstrained
+### Mathematical Optimization
+#### Unconstrained
 ```
 f(x) = x^2 
 print(minimize f)
 ```
-### Constrained
+#### Constrained
 ```
 f(x) = x^2 s.t. x > 0
 print(minimize f)
@@ -156,50 +156,50 @@ print(minimize f)
 print(minimize f(x) = x^2 s.t. x > 0)
 ```
 
-## HTTP GET request
+### HTTP GET request
 ```
 some data = get <YOUR URL>
 ```
 
-### If data is CSV (you can treat the variable as a matrix)
+#### CSV data from HTTP GET
 ```
 some data = get <YOUR CSV URL>
 print(some data[2,3])
 ```
 
-## Comments
+### Comments
 ```
 "Comments are written with surrounding quotation symbols"
 print 1 + 1
 ```
 
-## Visualization
-### Line plot
+### Visualization
+#### Line plot
 ```
 x = [1,2,3]
 y = [3,4,5]
 plot(x,y, label = Some line)
 ```
-### Histogram chart
+#### Histogram chart
 ```
 x = [1,2,3,3,3,3,4,5,5,5,5,5]
 histogram(x, bars = 4, label = Some histogram)
 ```
 
-### Bar chart
+#### Bar chart
 ```
 x = [apple, apple, orange, pineapple]
 bar chart(x,label = Fruits)
 ```
 
-### Scatter plot
+#### Scatter plot
 ```
 x = [1,2,3]
 y = [3,4,5]
 scatter plot(x,y)
 ```
 
-### Combining charts/plots
+#### Combining charts/plots
 Use the word "and" or ","
 ```
 x = [1,2,3]
@@ -209,7 +209,7 @@ plot(x,y, label = Some line) and histogram(z)
 ```
 
 
-### Table
+#### Table
 This method will try to convert content into a table and visualize it
 ```
 table(get(<YOUR CSV URL>))
