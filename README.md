@@ -1,7 +1,11 @@
-# Quantleaf Language Documentation & Examples
+# Quantleaf Language
 Two things to note. The project is currently in testing phase. Which means, major changes could occur. 
 The documentation below is in english but the Quantleaf Language can also be written in Swedish, but is not yet documented.
 
+For a quick "deep dive" (check this linear regression example)[https://github.com/quantleaf/quantleaf-language-documentation/blob/master/examples/linear-regression-one-variable.md].
+
+
+# Documentation
 
 ## Print
 ```
