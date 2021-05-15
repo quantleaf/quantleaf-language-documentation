@@ -31,7 +31,7 @@ sqrt(2)
 ```
 
 ### Variables
-Variables are (currently) case insensitive. Variables can contain spaces.
+Variable names are (currently) case insensitive. Variable names can contain spaces.
 
 A number
 ```
