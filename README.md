@@ -81,6 +81,7 @@ You can select columns and rows by value. If you select a column with name "Appl
 ```
 fruit price matrix = [[Apple, Orange],[2,3]]
 apple price = fruit price matrix column Apple
+print(apple price)
 ```
 
 
