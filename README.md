@@ -133,13 +133,15 @@ or
 foreach fruit in [banana, apple, kiwi] print fruit
 ```
 
-### If, Else If, Else
+### If, Else If, Else conditions
 ```
-if 2 > 1
-  print hello
-else if 3  > 2 print world
+x = 123
+if x > 1
+    print hello
+else if x = 2 
+    print world
 else
-  print "something"
+    print "something"
 ```
 
 ### Functions
@@ -155,10 +157,12 @@ f(x) { x^2 }
 or 
 ```
 f(x)
-  x^2
+    x^2
 ```
 
-Some small examples with if statements: 
+
+
+Some small examples of the same program using if statements and *return* statements (which lets us exit functions before the end is reached)
 
 ```
 taste(fruit) if fruit = apple good else bad
@@ -166,17 +170,17 @@ taste(fruit) if fruit = apple good else bad
 
 ```
 taste(fruit)
-  if fruit equals apple
-    return good
-  return bad
+    if fruit equals apple
+        return good
+    return bad
 ```
 
 ```
 taste(fruit)
 {
-  if(fruit == apple)
-    return good
-  bad
+    if(fruit == apple)
+        return good
+    bad
 }
 ```
 #### Call/Use functions

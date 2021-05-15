@@ -10,7 +10,7 @@ print fib(8)
 
 You can also write the same program in more verbose ways.
 
-
+In this example tabs defines scope, and we use the *return* symbol to end the function.
 ```
 fib(n) 
 	if n <= 1 
@@ -19,6 +19,7 @@ fib(n)
 print fib(8)
 ```
 
+In this example { } defines scope
 ```
 fib(n) 
 {
@@ -32,7 +33,7 @@ print(fib(8))
 ```
 
 
-(In swedish)
+Calculate fibonnaci in Swedish with tabs as scope
 ```
 fib(n) 
 	om n <= 1
