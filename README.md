@@ -104,6 +104,9 @@ print(apple price)
 
 ```
 for i = 1 to 10 print (i)
+```
+
+```
 foreach fruit in [banana, apple, kiwi] print fruit
 ```
 
