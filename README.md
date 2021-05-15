@@ -31,18 +31,38 @@ sqrt(2)
 ```
 
 ### Variables
+Variables are (currently) case insensitive.
+
+A number
 ```
 some variable = 123
-some variable = hello world
+```
+A string (text) variable.
+```
 some variable = "hello world"
 ```
+
+A string (text) variable. Quations can be omitted for string variables if the string is "meaningless"
+```
+some variable = hello world
+```
+
 
 ### Lists
 #### Creating
 ```
 a list = A,B,C
+```
+or
+```
 a list = [1,2,3]
+```
+Example of two dimensional (a matrix)
+```
 a complex kind of list = [[A,"B",123],[456,???,hello world]]
+```
+You can also use the word "contains" to build a list
+```
 a list of todos contains do laundry, cleaning and call grandma
 ```
 #### Adding elements
