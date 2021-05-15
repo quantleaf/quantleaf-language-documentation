@@ -147,6 +147,8 @@ else
 ### Functions
 
 #### Defining functions
+
+You can write function in many different ways.
 ```
 f(x) = x^2
 ```
@@ -159,10 +161,15 @@ or
 f(x)
     x^2
 ```
+or
+```
+f(x) = 
+{ 
+    x^2 
+}
+```
 
-
-
-Some small examples of the same program using if statements and *return* statements (which lets us exit functions before the end is reached)
+Belowo are some small examples of the **same** program using if statements and *return* statements (which lets us exit functions before the end is reached)
 
 ```
 taste(fruit) if fruit = apple good else bad
