@@ -57,7 +57,7 @@ a list without an element = a list remove "hello world"
 ```
 
 #### Transpose 
-()
+Flip a matrix along its diagonal
 ```
 a list = [1,2,3]'
 a list = tranpose([1,2,3])
