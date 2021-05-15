@@ -1,5 +1,6 @@
 Simple 1D linear regression.
 
+
 ```
 "The data to fit our line to"
 x = [1,2,3,4,5,6,7]
@@ -8,7 +9,7 @@ y = [3,5,10,5,9,14,18]
 "Defining the line"
 f(x,k,m) = x*k + m
 
-"Define the distance between the line and data points"
+"Define the distance between the line and data points as a function of k and m"
 distance from data(k,m) = (f(x,k,m) - y)^2
 
 "Find k and m that minimizes this distance"
