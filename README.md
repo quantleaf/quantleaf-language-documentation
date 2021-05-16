@@ -149,7 +149,7 @@ else
 #### Defining functions
 
 You can write function in many different ways.
-Functions can return values, by writing *return* before something, or by writing the value last. A few examples of **equivalent** functions.
+Functions can return values, by writing *return* before something, or by writing the value last. A few examples of **equivalent** functions:
 ```
 f(x) = x^2
 ```
@@ -178,7 +178,7 @@ f(x)
 ```
 
 
-Below are some small examples of the **same** program using *if* statements and *return* statements (which lets us exit functions before the end is reached)
+Below are some small examples of the **equivalent** programs using *if* statements and *return* statements:
 
 ```
 taste(fruit) if fruit = apple good else bad
