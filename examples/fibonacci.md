@@ -13,9 +13,9 @@ You can also write the same program in more verbose ways.
 In this example tabs defines scope, and we use the *return* symbol to end the function.
 ```
 fib(n) 
-	if n <= 1 
-		return n 
-	fib(n-1) + fib(n-2)
+    if n <= 1 
+        return n 
+    fib(n-1) + fib(n-2)
 print fib(8)
 ```
 
@@ -23,11 +23,11 @@ In this example { } defines scope
 ```
 fib(n) 
 {
-	if (n <= 1) 
-	{
-		return n
-	}
-	return fib(n-1) + fib(n-2)
+    if (n <= 1) 
+    {
+        return n
+    }
+    return fib(n-1) + fib(n-2)
 }
 print(fib(8))
 ```
@@ -36,9 +36,9 @@ print(fib(8))
 Calculate fibonnaci in Swedish with tabs as scope
 ```
 fib(n) 
-	om n <= 1
-		returnera n
-	annars
-		fib(n-1) + fib(n-2)
+    om n <= 1
+        returnera n
+    annars
+        fib(n-1) + fib(n-2)
 skriv ut fib(8)
 ```
