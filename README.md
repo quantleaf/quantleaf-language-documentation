@@ -273,17 +273,16 @@ bar chart(x,label = Fruits)
 
 #### Scatter plot
 ```
-x = [1,2,3,4]
-y = [3,2,7,0.5]
-z = [1,2,3,3,3,3,3,4]
-plot(x,y, label = Some line) and histogram(z)
+x = [1,2,3]
+y = [3,4,5]
+plot(x,y, label = Some line)
 ```
 
 #### Combining charts/plots
 Use the word "and" or ","
 ```
-x = [1,2,3]
-y = [3,4,5]
+x = [1,2,3,4]
+y = [3,2,7,0.5]
 z = [1,2,3,3,3,3,3,4]
 plot(x,y, label = Some line) and histogram(z)
 ```
