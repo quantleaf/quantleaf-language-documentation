@@ -38,7 +38,7 @@ Calculate fibonnaci in Swedish with tabs as scope
 fib(n) 
 	om n <= 1
 		returnera n
-    	annars
+	annars
 		fib(n-1) + fib(n-2)
 skriv ut fib(8)
 ```
