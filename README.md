@@ -57,7 +57,7 @@ or
 ```
 a list = [1,2,3]
 ```
-Example of two dimensional (a matrix)
+Example of two dimensional (a table)
 ```
 a complex kind of list = [[A,"B",123],[456,???,hello world]]
 ```
