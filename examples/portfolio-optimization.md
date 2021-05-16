@@ -14,9 +14,9 @@ quandl api key = <YOUR API KEY HERE>
 stocks = [ADYEN,ALKAL]
 prices = []
 foreach stock in stocks
-	price url = "https://www.quandl.com/api/v3/datasets/EURONEXT/" +  stock  + "/data.json?start_date=2020-11-02&end_date=2021-04-06&api_key=" + quandl api key
-	price data = get(price url).dataset_data.data[:,1]'
-	prices = prices add price data
+    price url = "https://www.quandl.com/api/v3/datasets/EURONEXT/" +  stock  + "/data.json?start_date=2020-11-02&end_date=2021-04-06&api_key=" + quandl api key
+    price data = get(price url).dataset_data.data[:,1]'
+    prices = prices add price data
 
 "Calculate relative returns"
 future =  prices[:,0:length(prices[0])-1]
