@@ -275,7 +275,7 @@ bar chart(x,label = Fruits)
 ```
 x = [1,2,3]
 y = [3,4,5]
-plot(x,y, label = Some line)
+scatter plot(x,y, label = Data)
 ```
 
 #### Combining charts/plots
