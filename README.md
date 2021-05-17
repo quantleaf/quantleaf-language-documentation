@@ -1,4 +1,4 @@
-# Quantleaf Language
+# Quantleaf Language introduction
 The Quantleaf Language is a natural language like programming language. The purpose of this language is to make programming something that more people could enjoy. 
 
 You do not need to install anything to start writing code. Just visit [quantleaf.com](https://quantleaf.com) and get started.
@@ -9,7 +9,6 @@ Two things to note. The project is currently in the testing phase which means ma
 The documentation below is in English but the Quantleaf Language can also be written in Swedish, but is not yet well documented. The language will also in the future support/understand more languages (and is by design intended of doing so). 
 
 You can get help with issues [here](https://github.com/quantleaf/quantleaf-language-documentation/issues).
-
 
 ## Documentation
 
