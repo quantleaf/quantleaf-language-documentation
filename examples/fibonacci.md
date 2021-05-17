@@ -1,6 +1,6 @@
 Calculate some fibonacci numbers
 
-[Run this example](https://quantleaf.com/?q=fib(n)%20if%20n%20%3C%3D%201%20n%20else%20fib(n-1)%20%2B%20fib(n-2)%20%0Aprint%20fib(8)&t=code)
+[Run this example](https://quantleaf.com/?q=fib(n)%20%3D%20if%20n%20%3C%3D%201%20n%20else%20fib(n-1)%20%2B%20fib(n-2)%20%0Aprint%20fib(8)&t=code)
 
 
 ```
