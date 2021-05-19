@@ -13,10 +13,10 @@ y = [3,5,10,5,9,14,18]
 f(x,k,m) = x*k + m
 
 "Avståndet från punktens från linjen som en funktion av k och m"
-avstånded från punkterna(k,m) = (f(x,k,m) - y)^2
+avståndet från punkterna(k,m) = (f(x,k,m) - y)^2
 
 "Hitta k och m som passar bäst till datan"
-resultat = minimera avstånded från punkterna
+resultat = minimera avståndet från punkterna
 
 "Visa resultatet av optimeringen"
 skriv ut resultat
