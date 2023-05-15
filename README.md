@@ -1,3 +1,6 @@
+--- LANGUAGE SERVER IS TEMPORARILY DISABLED, PLEASE COME BACK LATER TO RUN THE DEMOS ---
+
+
 # Quantleaf Language introduction
 The Quantleaf Language is a natural language like programming language. The purpose of this language is to make programming something that more people could enjoy. 
 
